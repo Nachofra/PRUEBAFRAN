@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+h1{
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.section{
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 0 0 0;
+}
+
+.section article{
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 2rem;
+    flex-grow: 0.2;
+}
